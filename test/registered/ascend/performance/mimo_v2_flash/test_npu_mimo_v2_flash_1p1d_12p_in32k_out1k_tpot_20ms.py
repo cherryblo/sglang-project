@@ -19,7 +19,7 @@ PREFILL_ENVS = {
     "SGLANG_SET_CPU_AFFINITY": "1",
     "STREAMS_PER_DEVICE": "32",
     "SGLANG_DEEPEP_NUM_MAX_DISPATCH_TOKENS_PER_RANK": "32",
-    "HCCL_BUFFSIZE": "1024",
+    "DEEPEP_HCCL_BUFFSIZE": "1024",
     "HCCL_OP_EXPANSION_MODE": "AIV",
     "HCCL_SOCKET_IFNAME": "lo",
     "GLOO_SOCKET_IFNAME": "lo",
@@ -43,7 +43,7 @@ DECODE_ENVS = {
     "SGLANG_SET_CPU_AFFINITY": "1",
     "STREAMS_PER_DEVICE": "32",
     "SGLANG_DEEPEP_NUM_MAX_DISPATCH_TOKENS_PER_RANK": "128",
-    "HCCL_BUFFSIZE": "800",
+    "DEEPEP_HCCL_BUFFSIZE": "800",
     "HCCL_OP_EXPANSION_MODE": "AIV",
     "HCCL_SOCKET_IFNAME": "lo",
     "GLOO_SOCKET_IFNAME": "lo",
@@ -173,8 +173,8 @@ class TestNPUMimo_v2_flash_1P1D_16p_In32k_Out1k_TTFT_5s(
     benchmark_tool = BENCHMARK_TOOL_DEFAULT
     dataset_type = AISBENCHMARK_DATASET_DEFAULT
     dataset_name = "random"
-    max_concurrency = 64
-    num_prompts = 128
+    max_concurrency = 48
+    num_prompts = 192
     request_rate = float("inf")
     input_len = 32000
     output_len = 1000
