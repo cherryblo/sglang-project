@@ -1,0 +1,14 @@
+.github/workflows/_npu-pr-test-stage.yml
+  h_ba09cc786f93d7 199-202
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "6c904f6b553a9ca50b72b3c9f4e999544f17e0a2",
+  "prompts": {},
+  "humans": {
+    "h_ba09cc786f93d7": {
+      "author": "cherryblo <136634645@qq.com>"
+    }
+  }
+}
