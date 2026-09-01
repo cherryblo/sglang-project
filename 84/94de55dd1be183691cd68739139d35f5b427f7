@@ -1,0 +1,61 @@
+.github/workflows/_npu-single-node-test-stage.yml
+  s_4bf0be0c472e11::t_db1a34b2396fe0 40-44,49-50,52-54,56,61-64,77-79
+  h_ba09cc786f93d7 51,55,65,80,174-178,218,227-229,239-257,279-297,304
+  s_6b21515a25dd30::t_99fc4cb646129d 258-275,310
+  s_6b21515a25dd30::t_e309f83e1b9d3a 309
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "8494de55dd1be183691cd68739139d35f5b427f7",
+  "prompts": {},
+  "humans": {
+    "h_ba09cc786f93d7": {
+      "author": "cherryblo <136634645@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_4bf0be0c472e11": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a76c89d8ed0cb0542498cb9",
+        "model": "deepseek-V4-Pro"
+      },
+      "human_author": "cherryblo <136634645@qq.com>",
+      "custom_attributes": {
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "session_id": "6a76c89d8ed0cb0542498cb9",
+        "client_type": "ide",
+        "source_scene": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a76c89d8ed0cb0542498cb9:6a7e8dce8ed0cb0542499171:afterEdit:d66c075d",
+        "external_session_id": "6a76c89d8ed0cb0542498cb9",
+        "tool_type": "builtin",
+        "tool_use_id": "6a7e8dce8ed0cb0542499171",
+        "operation_id": "6a7e8dce8ed0cb0542499171",
+        "edit_kind": "file_edit"
+      }
+    },
+    "s_6b21515a25dd30": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7eb81c8ed0cb0542499183",
+        "model": "deepseek-V4-Pro"
+      },
+      "human_author": "cherryblo <136634645@qq.com>",
+      "custom_attributes": {
+        "dedupe_key": "6a7eb81c8ed0cb0542499183:6a7ebcd18ed0cb05424991e4:afterEdit:d66c075d",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "tool_use_id": "6a7ebcd18ed0cb05424991e4",
+        "operation_id": "6a7ebcd18ed0cb05424991e4",
+        "tool_type": "builtin",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "edit_kind": "file_edit",
+        "session_id": "6a7eb81c8ed0cb0542499183",
+        "source_scene": "agent",
+        "external_session_id": "6a7eb81c8ed0cb0542499183"
+      }
+    }
+  }
+}
