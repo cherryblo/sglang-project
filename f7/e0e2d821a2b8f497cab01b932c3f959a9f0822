@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "f7e0e2d821a2b8f497cab01b932c3f959a9f0822",
+  "prompts": {},
+  "humans": {
+    "h_ba09cc786f93d7": {
+      "author": "cherryblo <136634645@qq.com>"
+    }
+  }
+}
