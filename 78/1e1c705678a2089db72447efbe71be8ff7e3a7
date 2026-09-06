@@ -1,0 +1,37 @@
+python/sglang/multimodal_gen/test/server/ascend/conftest.py
+  s_665b01e0a63197::t_7e21498d119548 109,112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "781e1c705678a2089db72447efbe71be8ff7e3a7",
+  "prompts": {},
+  "humans": {
+    "h_ba09cc786f93d7": {
+      "author": "cherryblo <136634645@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_665b01e0a63197": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9d22b966b4b7ff215b0e62",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "cherryblo <136634645@qq.com>",
+      "custom_attributes": {
+        "tool_use_id": "6a9d22cf66b4b7ff215b0e73",
+        "edit_kind": "file_edit",
+        "source_scene": "unknown",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_type": "agent",
+        "external_session_id": "6a9d22b966b4b7ff215b0e62",
+        "dedupe_key": "6a9d22b966b4b7ff215b0e62:6a9d22cf66b4b7ff215b0e73:afterEdit:d94793bf",
+        "client_type": "ide",
+        "session_id": "6a9d22b966b4b7ff215b0e62",
+        "tool_id": "Edit",
+        "operation_id": "6a9d22cf66b4b7ff215b0e73"
+      }
+    }
+  }
+}
