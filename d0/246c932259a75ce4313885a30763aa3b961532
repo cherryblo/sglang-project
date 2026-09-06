@@ -1,0 +1,33 @@
+python/sglang/multimodal_gen/test/server/ascend/testcase_configs_npu.py
+  s_4a9b9aa56001b6::t_86cd444b781b34 179-184
+  s_4a9b9aa56001b6::t_8c3a7f6ff09d37 236-241
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "d0246c932259a75ce4313885a30763aa3b961532",
+  "prompts": {},
+  "sessions": {
+    "s_4a9b9aa56001b6": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9c21f666b4b7ff215b0c8c",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "cherryblo <136634645@qq.com>",
+      "custom_attributes": {
+        "tool_type": "agent",
+        "session_id": "6a9c21f666b4b7ff215b0c8c",
+        "operation_id": "6a9d1cff66b4b7ff215b0e37",
+        "tool_id": "Write",
+        "external_session_id": "6a9c21f666b4b7ff215b0c8c",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a9c21f666b4b7ff215b0c8c:6a9d1cff66b4b7ff215b0e37:afterEdit:d94793bf",
+        "edit_kind": "file_edit",
+        "source_scene": "unknown",
+        "tool_use_id": "6a9d1cff66b4b7ff215b0e37"
+      }
+    }
+  }
+}
