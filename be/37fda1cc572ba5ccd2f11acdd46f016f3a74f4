@@ -1,0 +1,32 @@
+test/registered/npu/basic_function/speculative_inference/test_npu_speculative_attention_mode.py
+  s_665b01e0a63197::t_c259eb864b0534 114
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "be37fda1cc572ba5ccd2f11acdd46f016f3a74f4",
+  "prompts": {},
+  "sessions": {
+    "s_665b01e0a63197": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9d22b966b4b7ff215b0e62",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "cherryblo <136634645@qq.com>",
+      "custom_attributes": {
+        "tool_use_id": "6a9d641366b4b7ff215b1133",
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6a9d641366b4b7ff215b1133",
+        "edit_kind": "file_edit",
+        "session_id": "6a9d22b966b4b7ff215b0e62",
+        "external_session_id": "6a9d22b966b4b7ff215b0e62",
+        "dedupe_key": "6a9d22b966b4b7ff215b0e62:6a9d641366b4b7ff215b1133:afterEdit:a35a5803",
+        "source_scene": "unknown",
+        "client_type": "ide",
+        "tool_type": "agent",
+        "tool_id": "Edit"
+      }
+    }
+  }
+}
