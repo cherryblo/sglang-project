@@ -1,0 +1,32 @@
+python/sglang/multimodal_gen/test/server/ascend/conftest.py
+  s_4a9b9aa56001b6::t_78670ff8060327 1-117
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "15b112df59cc087935e54d7910bb75db11751d6b",
+  "prompts": {},
+  "sessions": {
+    "s_4a9b9aa56001b6": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9c21f666b4b7ff215b0c8c",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "cherryblo <136634645@qq.com>",
+      "custom_attributes": {
+        "tool_use_id": "6a9d1fb466b4b7ff215b0e52",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a9c21f666b4b7ff215b0c8c:6a9d1fb466b4b7ff215b0e52:afterEdit:ed61e2bf",
+        "external_session_id": "6a9c21f666b4b7ff215b0c8c",
+        "tool_type": "agent",
+        "operation_id": "6a9d1fb466b4b7ff215b0e52",
+        "session_id": "6a9c21f666b4b7ff215b0c8c",
+        "source_scene": "unknown",
+        "edit_kind": "file_edit",
+        "tool_id": "Write"
+      }
+    }
+  }
+}
