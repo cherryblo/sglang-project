@@ -1,0 +1,36 @@
+python/sglang/multimodal_gen/test/server/ascend/conftest.py
+  s_c1aa8250b6adc1::t_47e2c72fb817ef 10-14,23
+  s_c1aa8250b6adc1::t_97e2f157d22021 118-157
+.github/workflows/pr-test-npu.yml
+  s_c1aa8250b6adc1::t_d95641ac877b03 214
+  s_c1aa8250b6adc1::t_a1af8cb54a0379 279
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "e971e4590880053f59beb0036f0d2584aff363a8",
+  "prompts": {},
+  "sessions": {
+    "s_c1aa8250b6adc1": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9fc5a266b4b7ff215b1628",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "cherryblo <136634645@qq.com>",
+      "custom_attributes": {
+        "dedupe_key": "6a9fc5a266b4b7ff215b1628:6a9ff8a966b4b7ff215b191d:afterEdit:96018c80",
+        "tool_id": "Edit",
+        "client_type": "ide",
+        "session_id": "6a9fc5a266b4b7ff215b1628",
+        "operation_id": "6a9ff8a966b4b7ff215b191d",
+        "tool_use_id": "6a9ff8a966b4b7ff215b191d",
+        "tool_type": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "unknown",
+        "edit_kind": "file_edit",
+        "external_session_id": "6a9fc5a266b4b7ff215b1628"
+      }
+    }
+  }
+}
